@@ -1,6 +1,6 @@
 # Network File Shares and Permissions
 <p align="center">
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/111b44ea-52f4-4884-b114-358ffc3f1b74"/>
+<img src="https://i.imgur.com/JNflqQy.png"/>
 </p>
 
 <h1>Network File Shares and Permissions</h1>
@@ -41,7 +41,7 @@ In this tutorial, going off Active Directory Deployed in Azure [https://github.c
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/be899399-e38a-4eb4-8e91-7fb71e688195"/>
+<img src="https://i.imgur.com/FOId7Va.png"/>
 </p>
 <p>
 First we need to log back into Cilent-1 and DC-1 from [https://github.com/codymar7in/Active-Directory-Configuration-] using Remote Desktop Connection. Copy the Public IP and log into the VM indivudally.  
@@ -49,7 +49,7 @@ First we need to log back into Cilent-1 and DC-1 from [https://github.com/codyma
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/969fd9a4-964a-40b3-bb7d-6540aa3c2aa5"/>
+<img src="https://i.imgur.com/y0GpAJB.png"/>
 </p>
 <p>
 Open DC-1 VM and click the window icon on the bottom left, then click Windows Administrative Tools
@@ -57,7 +57,7 @@ Open DC-1 VM and click the window icon on the bottom left, then click Windows Ad
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/230ee7bf-0922-47ed-889d-e45f64f9c75f"/>
+<img src="https://i.imgur.com/cme8s3r.png"/>
 </p>
 <p>
 Next click Active Directory Users and Computers
@@ -65,7 +65,7 @@ Next click Active Directory Users and Computers
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/f1100013-48b1-4881-b7d8-2d60ae3891fa"/>
+<img src="https://i.imgur.com/anSP9Q6.png"/>
 </p>
 <p>
 Now go to the Employees section and you will see all 2000 Employees created
@@ -73,7 +73,7 @@ Now go to the Employees section and you will see all 2000 Employees created
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/a6eeb55c-53e2-4bfd-ace5-5d0ca3170be1"/>
+<img src="https://i.imgur.com/7WFbxml.png"/>
 </p>
 <p>
 Next click a random user and copy the display name on a notepad to not forget the name
@@ -81,7 +81,7 @@ Next click a random user and copy the display name on a notepad to not forget th
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/4df9e089-bc9a-4d98-8686-58e2ed54c95f"/>
+<img src="https://i.imgur.com/yIwDoUV.png"/>
 </p>
 <p>
 Now type File Explorer in the search bar and open the app
@@ -89,7 +89,7 @@ Now type File Explorer in the search bar and open the app
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/61ee3cc5-3546-49cb-b5b4-fdd503dde7fa"/>
+<img src="https://i.imgur.com/AiwPl0z.png"/>
 </p>
 <p>
 Now click on Windows (C)
@@ -97,7 +97,7 @@ Now click on Windows (C)
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/dd83be67-ef2e-4a5e-8d79-250221a84f9e"/>
+<img src="https://i.imgur.com/b7kcSLK.png"/>
 </p>
 <p>
 From here create the following file read access, write access, no access, and accounting. To do this right click anywhere and click create new folder
@@ -105,7 +105,7 @@ From here create the following file read access, write access, no access, and ac
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/dd8cc1a4-1d35-4666-ab06-ec675f456856"/>
+<img src="https://i.imgur.com/zDCbB5z.png"/>
 </p>
 <p>
 Next right click read access and go to properties
@@ -113,7 +113,7 @@ Next right click read access and go to properties
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/620acc5d-b8f1-4416-a8c2-0e7b2c19648d"/>
+<img src="https://i.imgur.com/yewqg9O.png"/>
 </p>
 <p>
 Go to the Sharing section and click share
@@ -121,7 +121,7 @@ Go to the Sharing section and click share
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/0c89a6d6-9db0-4eb3-9799-8d0577e96762"/>
+<img src="https://i.imgur.com/JHwzRMD.png"/>
 </p>
 <p>
 Next type domain users and click add
@@ -130,7 +130,7 @@ Next type domain users and click add
 
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/4cf9f4b0-503d-43dc-a2db-f2e577d9ac61"/>
+<img src="https://i.imgur.com/MUElRGj.png"/>
 </p>
 <p>
 Now click the permissions level and click the read permission. Then click shar on the bottom right 
@@ -138,7 +138,7 @@ Now click the permissions level and click the read permission. Then click shar o
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/fc619215-34ad-483a-bf01-4366cc3d34c5"/>
+<img src="https://i.imgur.com/q2m0qkY.png"/>
 </p>
 <p>
 To finish click Done 
@@ -146,7 +146,7 @@ To finish click Done
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/1e029fb3-57fd-4f64-8964-6b2ef357a456"/>
+<img src="https://i.imgur.com/5g0RC19.png"/>
 </p>
 <p>
 Right click write access and go to the properties section 
@@ -154,7 +154,7 @@ Right click write access and go to the properties section
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/e38ece3b-4b6a-4c14-87a8-8a04ac1e95cd"/>
+<img src="https://i.imgur.com/TwTQEMx.png"/>
 </p>
 <p>
 Next click the Sharing tab, and click share 
@@ -162,7 +162,7 @@ Next click the Sharing tab, and click share
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/42414c37-d074-4487-bfeb-0efa09b237d8"/>
+<img src="https://i.imgur.com/yUic7Lq.png"/>
 </p>
 <p>
 Under permission level click read/write and then click share
@@ -170,7 +170,7 @@ Under permission level click read/write and then click share
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/32258a97-cc4a-4bea-ad3b-240c496013e5"/>
+<img src="https://i.imgur.com/VzpIjkS.png"/>
 </p>
 <p>
 To finish click done 
@@ -178,7 +178,7 @@ To finish click done
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/23084462-438d-4269-81a4-502835dc8b59"/>
+<img src="https://i.imgur.com/OMRJFOw.png"/>
 </p>
 <p>
 Then click close 
@@ -186,7 +186,7 @@ Then click close
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/d9c7e980-c5a3-4608-b34f-e2f546e30dc9"/>
+<img src="https://i.imgur.com/sm5FKNf.png"/>
 </p>
 <p>
 Right click no access and click properties
@@ -194,7 +194,7 @@ Right click no access and click properties
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/82ae32c0-cc32-4924-a1b0-2e36e1fda214"/>
+<img src="https://i.imgur.com/TwbneX5.png"/>
 </p>
 <p>
 Then click the sharing tab and then click share 
@@ -202,7 +202,7 @@ Then click the sharing tab and then click share
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/f7a912a9-b9a1-47df-830e-80c3e78c58b3"/>
+<img src="https://i.imgur.com/sLIeLWW.png"/>
 </p>
 <p>
 Next in the permission level click read/write then click share 
@@ -210,7 +210,7 @@ Next in the permission level click read/write then click share
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/fb926a23-51f1-49a0-850d-1c2470ce876f"/>
+<img src="https://i.imgur.com/wIt3c21.png"/>
 </p>
 <p>
 To finish click Done 
@@ -218,7 +218,7 @@ To finish click Done
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/0ddb12bd-cc55-46e2-a404-a733fd7f6e82"/>
+<img src="https://i.imgur.com/w8LtGBE.png"/>
 </p>
 <p>
 Then close the file 
@@ -226,7 +226,7 @@ Then close the file
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/c968dc0d-81aa-4176-a03c-e515ac9d3385"/>
+<img src="https://i.imgur.com/wYluNlS.png"/>
 </p>
 <p>
 Next go to Cilent-1 VM and go to Network > dc-1 in file explorer and click read access 
@@ -234,7 +234,7 @@ Next go to Cilent-1 VM and go to Network > dc-1 in file explorer and click read 
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/1a8001fc-a8eb-4338-8002-f77e938b839a"/>
+<img src="https://i.imgur.com/F9XhTBe.png"/>
 </p>
 <p>
 Now right click go to new and click text document 
@@ -242,7 +242,7 @@ Now right click go to new and click text document
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/56ca95a4-be4f-4037-8bb8-5a39b88bfa47"/>
+<img src="https://i.imgur.com/669GrN1.png"/>
 </p>
 <p>
 Next you will see that we dont have permission to create the file 
@@ -250,7 +250,7 @@ Next you will see that we dont have permission to create the file
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/668c0d73-a2b0-44d8-bc6f-9843f2af32de"/>
+<img src="https://i.imgur.com/EZ5HXsg.png"/>
 </p>
 <p>
 Next go to the write access folder 
@@ -258,7 +258,7 @@ Next go to the write access folder
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/c137165d-d6a8-4d77-a90b-b1bca296e651"/>
+<img src="https://i.imgur.com/h1OCe3g.png"/>
 </p>
 <p>
 Next right click and go to new. Then to text document 
@@ -266,7 +266,7 @@ Next right click and go to new. Then to text document
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/145649de-f316-4fa8-98d3-2e3fd4d9329b"/>
+<img src="https://i.imgur.com/SaA1fSh.png"/>
 </p>
 <p>
 We can now click the file and call it hi admin. To show the admin 
@@ -274,7 +274,7 @@ We can now click the file and call it hi admin. To show the admin
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/b1c4555d-a4ed-40d7-b05b-6cfe548050d2"/>
+<img src="https://i.imgur.com/MrRs8Z3.png"/>
 </p>
 <p>
 Now go back to DC-1 VM and go to the read access folder 
@@ -282,7 +282,7 @@ Now go back to DC-1 VM and go to the read access folder
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/ce1b8520-dddb-49b6-a645-78aeb456bd85"/>
+<img src="https://i.imgur.com/O4KUuWx.png"/>
 </p>
 <p>
 Now right click and go to new then to text document 
@@ -290,7 +290,7 @@ Now right click and go to new then to text document
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/1e30e51f-79fa-41ed-a1ce-8814bcd69547"/>
+<img src="https://i.imgur.com/yX2Zl6U.png"/>
 </p>
 <p>
 Next name the text file you can only read me 
@@ -298,7 +298,7 @@ Next name the text file you can only read me
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/06607fd6-111e-45f0-8d9d-fb842c7dcd97"/>
+<img src="https://i.imgur.com/uzjlj2m.png"/>
 </p>
 <p>
 Next open the text file and type hello everyone 
@@ -306,7 +306,7 @@ Next open the text file and type hello everyone
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/d6470c9c-18e2-4ce6-8a7a-a5ff466735d6"/>
+<img src="https://i.imgur.com/aBZRtTc.png"/>
 </p>
 <p>
 Next go back to Cilent 1 VM and you will see the text file in the read access folder
@@ -314,7 +314,7 @@ Next go back to Cilent 1 VM and you will see the text file in the read access fo
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/8f66e026-ad00-4e8f-97b7-729faab7fe10"/>
+<img src="https://i.imgur.com/mF1KZc6.png"/>
 </p>
 <p>
 Now go back to DC-1 VM and go to mydomain.com then right click. Go to new then to organizational unit 
@@ -322,7 +322,7 @@ Now go back to DC-1 VM and go to mydomain.com then right click. Go to new then t
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/f6544d8d-1708-4218-9476-4ce32b668006"/>
+<img src="https://i.imgur.com/Jj9FlS8.png"/>
 </p>
 <p>
 Now for the name type _SECURITY_GROUPS then click ok 
@@ -330,7 +330,7 @@ Now for the name type _SECURITY_GROUPS then click ok
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/2a2f75e3-5888-4d63-ade8-b03216271b9c"/>
+<img src="https://i.imgur.com/Hc93FD7.png"/>
 </p>
 <p>
 Next go in the _SECURITY_GROUPS and right click go to new then group
@@ -338,7 +338,7 @@ Next go in the _SECURITY_GROUPS and right click go to new then group
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/0fc1b399-0c9d-4643-a6ec-d67a544a78be"/>
+<img src="https://i.imgur.com/WzApx9P.png"/>
 </p>
 <p>
 Now name the group ACCOUNTIANTS then click ok 
@@ -346,7 +346,7 @@ Now name the group ACCOUNTIANTS then click ok
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/c2336489-1e9e-4f29-9f3a-56c4a577f275"/>
+<img src="https://i.imgur.com/byzUzKY.png"/>
 </p>
 <p>
 Next go to the accounting file and right click then go to the properties section 
@@ -354,7 +354,7 @@ Next go to the accounting file and right click then go to the properties section
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/11c4f683-4c1d-4b86-8cd3-0fcaab475e4a"/>
+<img src="https://i.imgur.com/XVwDap5.png"/>
 </p>
 <p>
 Next go to the sharing tab then click share 
@@ -362,7 +362,7 @@ Next go to the sharing tab then click share
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/a1cb1951-d7a1-4eaa-9f28-a38bf5ef7dde"/>
+<img src="https://i.imgur.com/2W9VmrF.png"/>
 </p>
 <p>
 Now type accountians then for permission click read/write once thats done click the share button 
@@ -370,7 +370,7 @@ Now type accountians then for permission click read/write once thats done click 
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/42bace66-465e-4949-88cc-325aa31a4a7a"/>
+<img src="https://i.imgur.com/XjFDVDe.png"/>
 </p>
 <p>
 Now click done 
@@ -378,7 +378,7 @@ Now click done
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/d47a6380-8f1f-4df1-a01c-5033ba6fcafe"/>
+<img src="https://i.imgur.com/X6sGmFC.png"/>
 </p>
 <p>
 Then to finsih it click close 
@@ -386,7 +386,7 @@ Then to finsih it click close
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/8c9886df-7dd8-446f-8562-80e16aceff85"/>
+<img src="https://i.imgur.com/vm6xS9S.png"/>
 </p>
 <p>
 Next go back to Cilent-1 VM and click the accounting folder and you can see we cant access it 
@@ -394,7 +394,7 @@ Next go back to Cilent-1 VM and click the accounting folder and you can see we c
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/a0056975-25b4-4273-95ce-58b49ea3b2dd"/>
+<img src="https://i.imgur.com/NnO4JlX.png"/>
 </p>
 <p>
 Next go back to DC-1 VM then right click the accountiants name then go to the member tab 
@@ -402,7 +402,7 @@ Next go back to DC-1 VM then right click the accountiants name then go to the me
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/4b071141-4335-42cf-a651-676a3f445e65"/>
+<img src="https://i.imgur.com/Qwvg66s.png"/>
 </p>
 <p>
 Next type the name of the user you are logged into then click ok  
@@ -410,7 +410,7 @@ Next type the name of the user you are logged into then click ok
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/b7e0ba1d-046a-4716-ae44-1081c4a87d76"/>
+<img src="https://i.imgur.com/ve3LJ8u.png"/>
 </p>
 <p>
 To finish click ok 
@@ -418,7 +418,7 @@ To finish click ok
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/f0adae21-c314-4806-a081-bc661c95031a"/>
+<img src="https://i.imgur.com/VrT1UJ8.png"/>
 </p>
 <p>
 Next go back to Cilent 1 VM and click the accounting folder and we can see you cant access it still 
@@ -427,7 +427,7 @@ Next go back to Cilent 1 VM and click the accounting folder and we can see you c
 
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/f628cac0-8e76-467b-a77e-6f03795b0eba"/>
+<img src="https://i.imgur.com/cnvt3bg.png"/>
 </p>
 <p>
 Next open up command prompt and type logoff
@@ -435,7 +435,7 @@ Next open up command prompt and type logoff
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/1c454a94-daea-436a-bc8c-581eabc4da0e"/>
+<img src="https://i.imgur.com/5En4NkI.png"/>
 </p>
 <p>
 Next log back into Cilent 1 VM then click the Win key + R then type \\dc-1 then click ok 
@@ -443,7 +443,7 @@ Next log back into Cilent 1 VM then click the Win key + R then type \\dc-1 then 
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/2b868986-355b-4461-947d-e2c57fbc23ad"/>
+<img src="https://i.imgur.com/pK88JQX.png"/>
 </p>
 <p>
 Then go to the accounting folder and you can see you now have permission to access the folder 
