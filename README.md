@@ -4,7 +4,7 @@
 </p>
 
 <h1>Network File Shares and Permissions</h1>
-In this tutorial, going off On-premises Active Directory Deployed in the Cloud (Azure) [https://github.com/JacobVillagomez2077/Configuring-On-premises-Active-Directory-within-Azure-VMs] we will create Network files and share permissions between them. <br />
+In this tutorial, going off Active Directory Deployed in Azure [https://github.com/codymar7in/Active-Directory-Configuration-] we will create Network files and share permissions between them. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -23,7 +23,7 @@ In this tutorial, going off On-premises Active Directory Deployed in the Cloud (
 
 <h2>High-Level Steps</h2>
 
-- Log into Cilent-1 and DC-1 VM from [https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs]
+- Log into Cilent-1 and DC-1 VM from [https://github.com/codymar7in/Active-Directory-Configuration-]
 - Open DC-1 VM go to Windows Administrative Tools
 - Load Active Directory Users and Computers
 - Select a random user and log into with Remote Desktop Connection
@@ -44,7 +44,7 @@ In this tutorial, going off On-premises Active Directory Deployed in the Cloud (
 <img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/be899399-e38a-4eb4-8e91-7fb71e688195"/>
 </p>
 <p>
-First we need to log back into Cilent-1 and DC-1 from [https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs] using Remote Desktop Connection. Copy the Public IP and log into the VM indivudally.  
+First we need to log back into Cilent-1 and DC-1 from [https://github.com/codymar7in/Active-Directory-Configuration-] using Remote Desktop Connection. Copy the Public IP and log into the VM indivudally.  
 </p>
 <br />
 
